@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10141d">
+  <title>KRAPO Scanner</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0f16;--panel:#141b27;--muted:#9aa8bc;--line:#263244;--green:#53d69a;--red:#ff7c7c;--text:#edf3fb}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+    main{max-width:1100px;margin:auto;padding:24px 16px 60px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+    h1{font-size:28px;margin:0;letter-spacing:.04em}.sub,.muted{color:var(--muted)}.pill{border:1px solid var(--line);padding:6px 10px;border-radius:99px;font-size:12px}
+    .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:22px 0}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+    .metric{font-size:27px;font-weight:750;margin-top:5px}.label{font-size:12px;color:var(--muted)}
+    h2{font-size:18px;margin:28px 0 12px}.candidate{margin:10px 0}.row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .edge{font-weight:750;color:var(--green);white-space:nowrap}.title{font-weight:650}.details{font-size:13px;color:var(--muted);margin-top:8px}
+    a{color:#9bc5ff;text-decoration:none}a:hover{text-decoration:underline}.warn{border-left:3px solid #e7b95e;padding:10px 12px;background:#211d14;border-radius:8px;color:#f2dca8;margin:18px 0;font-size:13px}
+    .empty{color:var(--muted);padding:16px 0}.foot{margin-top:32px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:12px}
+    @media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.metric{font-size:23px}main{padding:18px 12px 40px}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div><h1>KRAPO SCANNER</h1><div class="sub">Market intelligence · lecture seule · V1</div></div>
+    <div class="pill" id="status">Chargement des données…</div>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="label">Marchés découverts</div><div class="metric" id="discovered">—</div></div>
+    <div class="card"><div class="label">Carnets vérifiés</div><div class="metric" id="checked">—</div></div>
+    <div class="card"><div class="label">Candidats bruts</div><div class="metric" id="candidates">—</div></div>
+    <div class="card"><div class="label">Erreurs de lecture</div><div class="metric" id="errors">—</div></div>
+  </div>
+  <div class="warn"><strong>Important :</strong> un écart brut n'est pas un arbitrage garanti. Les frais, la profondeur réellement exécutable, les règles de résolution et les éventuelles restrictions géographiques ne sont pas validés par ce tableau de bord. Aucun ordre n'est passé.</div>
+  <h2>Candidats détectés</h2>
+  <div id="candidate-list" class="empty">Aucune donnée disponible pour le moment.</div>
+  <h2>Marchés suivis</h2>
+  <div id="market-list"></div>
+  <div class="foot" id="updated">Dernière mise à jour : —</div>
+</main>
+<script>
+const fmt = n => Number(n).toFixed(3);
+function card(item, candidate=false){
+  const el=document.createElement('article');el.className='card candidate';
+  const top=document.createElement('div');top.className='row';
+  const title=document.createElement('div');title.className='title';title.textContent=item.question||'Marché sans titre';
+  const edge=document.createElement('div');edge.className='edge';edge.textContent=candidate?`${(item.gross_edge*100).toFixed(2)} % brut`:'';
+  top.append(title,edge);
+  const d=document.createElement('div');d.className='details';
+  d.textContent=candidate
+    ? `YES ask ${fmt(item.yes_best_ask)} $ · NO ask ${fmt(item.no_best_ask)} $ · coût ${fmt(item.combined_cost)} $ · taille visible ${fmt(item.matched_top_size)}`
+    : `Liquidité ${Number(item.liquidity||0).toLocaleString('fr-FR',{maximumFractionDigits:0})} $ · volume 24 h ${Number(item.volume24h||0).toLocaleString('fr-FR',{maximumFractionDigits:0})} $`;
+  const a=document.createElement('a');a.href=item.url||'#';a.target='_blank';a.rel='noopener';a.textContent='Ouvrir le marché ↗';
+  const footer=document.createElement('div');footer.className='details';footer.append(d,document.createTextNode(' · '),a);
+  el.append(top,footer);return el;
+}
+async function load(){
+  try{
+    const r=await fetch('./data/latest.json?ts='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error('Données pas encore publiées');
+    const x=await r.json();
+    document.getElementById('status').textContent='Données chargées';
+    document.getElementById('discovered').textContent=x.markets_discovered??'—';
+    document.getElementById('checked').textContent=x.books_checked??'—';
+    document.getElementById('candidates').textContent=x.candidate_count??'—';
+    document.getElementById('errors').textContent=x.book_errors??'—';
+    const list=document.getElementById('candidate-list');list.replaceChildren();
+    if(!(x.candidates||[]).length){list.className='empty';list.textContent='Aucun candidat ne dépasse actuellement le seuil brut.'}
+    else{list.className='';x.candidates.forEach(i=>list.append(card(i,true)))}
+    const markets=document.getElementById('market-list');markets.replaceChildren();
+    (x.markets||[]).slice(0,20).forEach(i=>markets.append(card(i,false)));
+    document.getElementById('updated').textContent=`Dernière mise à jour : ${new Date(x.generated_at).toLocaleString('fr-FR')} · durée ${x.duration_seconds}s · V${x.version}`;
+  }catch(e){document.getElementById('status').textContent='En attente';document.getElementById('candidate-list').textContent=e.message}
+}
+load();setInterval(load,60000);
+</script>
+</body>
+</html>

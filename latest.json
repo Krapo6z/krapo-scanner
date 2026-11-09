@@ -1,0 +1,15 @@
+{
+  "project": "KRAPO Scanner",
+  "version": "1.0.0",
+  "generated_at": null,
+  "markets_discovered": 0,
+  "books_checked": 0,
+  "book_errors": 0,
+  "candidate_count": 0,
+  "telegram_alerts_sent": 0,
+  "candidates": [],
+  "markets": [],
+  "settings": {
+    "note": "Le premier scan remplira ce fichier."
+  }
+}
