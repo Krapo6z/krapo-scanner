@@ -1,10 +1,10 @@
 {
   "project": "KRAPO Scanner",
   "version": "1.0.0",
-  "generated_at": "2026-11-21T07:44:20.490597+00:00",
-  "duration_seconds": 2.71,
+  "generated_at": "2026-11-21T08:46:33.191941+00:00",
+  "duration_seconds": 2.96,
   "markets_discovered": 100,
-  "books_checked": 40,
+  "books_checked": 38,
   "book_errors": 0,
   "candidate_count": 0,
   "telegram_alerts_sent": 0,
@@ -21,7 +21,7 @@
       "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
       "slug": "will-hillary-clinton-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 2822588.17684,
+      "liquidity": 2826211.02884,
       "volume24h": 14755.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "6349038249650226718426900942104344803413105653564595362433352811865798195800",
@@ -43,14 +43,14 @@
       "matched_top_size": 27162.04,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.233187+00:00"
+      "checked_at": "2026-11-21T08:46:30.650280+00:00"
     },
     {
       "id": "559680",
       "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
       "slug": "will-phil-murphy-win-the-2028-democratic-presidential-nomination-611",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 2706349.55841,
+      "liquidity": 2706429.10941,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "81633484456710374417231462107666791993850637546563366185897100962157481970040",
@@ -72,15 +72,15 @@
       "matched_top_size": 10031.53,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.202382+00:00"
+      "checked_at": "2026-11-21T08:46:30.649250+00:00"
     },
     {
       "id": "703257",
       "question": "Will the US confirm that aliens exist before 2027?",
       "slug": "will-the-us-confirm-that-aliens-exist-before-2027-789-924-249",
       "event_slug": "will-the-us-confirm-that-aliens-exist-before-2027",
-      "liquidity": 2542709.49815,
-      "volume24h": 275745.246727,
+      "liquidity": 2543487.03013,
+      "volume24h": 276027.06791700004,
       "end_date": "2027-01-01T04:59:00Z",
       "yes_token": "107505882767731489358349912513945399560393482969656700824895970500493757150417",
       "no_token": "7305630249804085635496399869905769372294302716159034447326228509068694952392",
@@ -92,23 +92,23 @@
         "rebateRate": 0.25
       },
       "url": "https://polymarket.com/event/will-the-us-confirm-that-aliens-exist-before-2027-789-924-249",
-      "yes_best_ask": 0.017,
-      "yes_ask_size": 320.34,
-      "no_best_ask": 0.984,
-      "no_ask_size": 51158.03,
+      "yes_best_ask": 0.018,
+      "yes_ask_size": 12042.65,
+      "no_best_ask": 0.983,
+      "no_ask_size": 391.42,
       "combined_cost": 1.001,
       "gross_edge": -0.0009999999999998899,
-      "matched_top_size": 320.34,
+      "matched_top_size": 391.42,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.194748+00:00"
+      "checked_at": "2026-11-21T08:46:30.643953+00:00"
     },
     {
       "id": "559676",
       "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
       "slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 2397752.45936,
+      "liquidity": 2398394.35536,
       "volume24h": 10000.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "88927218779847397120407909832537568114340511586397698395193736044476021744522",
@@ -130,14 +130,14 @@
       "matched_top_size": 56210.72,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.190875+00:00"
+      "checked_at": "2026-11-21T08:46:30.647250+00:00"
     },
     {
       "id": "559692",
       "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
       "slug": "will-jasmine-crockett-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 2279835.15389,
+      "liquidity": 2275800.28921,
       "volume24h": 167.603,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "22103094389913052942362639589409218272323168761614999702665821259175535456835",
@@ -159,14 +159,14 @@
       "matched_top_size": 75274.07,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.379038+00:00"
+      "checked_at": "2026-11-21T08:46:30.853780+00:00"
     },
     {
       "id": "559701",
       "question": "Will Josh Stein win the 2028 Democratic presidential nomination?",
       "slug": "will-josh-stein-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 2104218.41797,
+      "liquidity": 2103682.47197,
       "volume24h": 13472.010999999999,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "88892629978057552473594496509394432528313837466696628191322608851106929962536",
@@ -188,14 +188,14 @@
       "matched_top_size": 656195.17,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.388974+00:00"
+      "checked_at": "2026-11-21T08:46:30.858948+00:00"
     },
     {
       "id": "561994",
       "question": "Will Kristi Noem win the 2028 Republican presidential nomination?",
       "slug": "will-kristi-noem-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 2025451.56215,
+      "liquidity": 2027297.45115,
       "volume24h": 26359.669,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "46777072088650922464797852907503479539785178123001199763117403684202580813104",
@@ -217,14 +217,14 @@
       "matched_top_size": 687468.03,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.418246+00:00"
+      "checked_at": "2026-11-21T08:46:30.864293+00:00"
     },
     {
       "id": "559704",
       "question": "Will Mitch Landrieu win the 2028 Democratic presidential nomination?",
       "slug": "will-mitch-landrieu-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1990306.9611,
+      "liquidity": 1992156.16982,
       "volume24h": 9291.869,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "4865811310965824253043301476456494687696227904538198271117692275943047535567",
@@ -246,14 +246,14 @@
       "matched_top_size": 298466.53,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.562821+00:00"
+      "checked_at": "2026-11-21T08:46:31.070926+00:00"
     },
     {
       "id": "559671",
       "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
       "slug": "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination-445",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1969979.74637,
+      "liquidity": 1971500.79337,
       "volume24h": 1385.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "19323997520040734631220675039559156784534982703459512097490198935565229528445",
@@ -275,14 +275,14 @@
       "matched_top_size": 117780.49,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.561835+00:00"
+      "checked_at": "2026-11-21T08:46:31.078725+00:00"
     },
     {
       "id": "561992",
       "question": "Will Katie Britt win the 2028 Republican presidential nomination?",
       "slug": "will-katie-britt-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1884297.53144,
+      "liquidity": 1884196.04502,
       "volume24h": 1340.1615,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "42282542821681724515855150589432262778581936160356547088323204270366545065655",
@@ -304,14 +304,14 @@
       "matched_top_size": 24584.91,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.597333+00:00"
+      "checked_at": "2026-11-21T08:46:31.073476+00:00"
     },
     {
       "id": "562001",
       "question": "Will Steve Bannon win the 2028 Republican presidential nomination?",
       "slug": "will-steve-bannon-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1745790.21269,
+      "liquidity": 1748187.32069,
       "volume24h": 844.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "76572162491038773682779378100661251853152133818805423848523216103658476280587",
@@ -333,14 +333,14 @@
       "matched_top_size": 74715.14,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.774831+00:00"
+      "checked_at": "2026-11-21T08:46:31.287447+00:00"
     },
     {
       "id": "561987",
       "question": "Will Elise Stefanik win the 2028 Republican presidential nomination?",
       "slug": "will-elise-stefanik-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1668629.14256,
+      "liquidity": 1667990.98281,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "46762065358788748743762617584400316865170283087328708370205000691002445395596",
@@ -362,14 +362,14 @@
       "matched_top_size": 10196.57,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.865568+00:00"
+      "checked_at": "2026-11-21T08:46:31.312500+00:00"
     },
     {
       "id": "562008",
       "question": "Will Pete Hegseth win the 2028 Republican presidential nomination?",
       "slug": "will-pete-hegseth-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1569613.77931,
+      "liquidity": 1567662.38195,
       "volume24h": 500.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "98511916129081689027111328481059704559518789751071585689160934736837069796376",
@@ -391,14 +391,14 @@
       "matched_top_size": 21515.0,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:18.981585+00:00"
+      "checked_at": "2026-11-21T08:46:31.500262+00:00"
     },
     {
       "id": "561986",
       "question": "Will Byron Donalds win the 2028 Republican presidential nomination?",
       "slug": "will-byron-donalds-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1424073.21654,
+      "liquidity": 1423751.32839,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "311624663652221737215322113380496984764966764039692273354641152455298576851",
@@ -420,14 +420,14 @@
       "matched_top_size": 11802.76,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.121440+00:00"
+      "checked_at": "2026-11-21T08:46:31.690739+00:00"
     },
     {
       "id": "559691",
       "question": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
       "slug": "will-chris-murphy-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1422437.35563,
+      "liquidity": 1422265.42163,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "8815924480259634499011776432080696931704057619336093802050596292915996723758",
@@ -449,14 +449,14 @@
       "matched_top_size": 11158.32,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.123267+00:00"
+      "checked_at": "2026-11-21T08:46:31.702811+00:00"
     },
     {
       "id": "561983",
       "question": "Will Greg Abbott win the 2028 Republican presidential nomination?",
       "slug": "will-greg-abbott-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1358665.49351,
+      "liquidity": 1350583.75051,
       "volume24h": 54.066,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "51109358167525503124101840618196204295486048568333812245607026343682053354150",
@@ -478,14 +478,14 @@
       "matched_top_size": 154806.16,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.165232+00:00"
+      "checked_at": "2026-11-21T08:46:31.717345+00:00"
     },
     {
       "id": "561242",
       "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
       "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
       "event_slug": "presidential-election-winner-2028",
-      "liquidity": 1333005.44526,
+      "liquidity": 1333090.74651,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "97633418272282627828834872960145259034624388719803091466146359304286851612172",
@@ -507,15 +507,15 @@
       "matched_top_size": 5638.98,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.179092+00:00"
+      "checked_at": "2026-11-21T08:46:31.712012+00:00"
     },
     {
       "id": "559657",
       "question": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
       "slug": "will-stephen-a-smith-win-the-2028-democratic-presidential-nomination-914",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1324452.19257,
-      "volume24h": 17962.719,
+      "liquidity": 1330967.15457,
+      "volume24h": 17962.718999999997,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "60590045489347122735554346200880179420435533609307820342798544098823516727807",
       "no_token": "76005700027045000587004110133818166617024719626220722682005164003117993034812",
@@ -536,14 +536,14 @@
       "matched_top_size": 525336.43,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.175511+00:00"
+      "checked_at": "2026-11-21T08:46:31.730555+00:00"
     },
     {
       "id": "559670",
       "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
       "slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1281702.29093,
+      "liquidity": 1282590.79408,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "35165603539035270209469650915267170915291414186795231160733227083640059691764",
@@ -565,14 +565,14 @@
       "matched_top_size": 17297.1,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.184243+00:00"
+      "checked_at": "2026-11-21T08:46:31.729749+00:00"
     },
     {
       "id": "562000",
       "question": "Will Rand Paul win the 2028 Republican presidential nomination?",
       "slug": "will-rand-paul-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 1231256.06109,
+      "liquidity": 1228914.34608,
       "volume24h": 61723.700000000004,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "56369772478534954338683665819559528414197495274302917800610633957542171787417",
@@ -586,23 +586,23 @@
       },
       "url": "https://polymarket.com/event/will-rand-paul-win-the-2028-republican-presidential-nomination",
       "yes_best_ask": 0.004,
-      "yes_ask_size": 12261.82,
+      "yes_ask_size": 12256.82,
       "no_best_ask": 0.997,
-      "no_ask_size": 126248.03,
+      "no_ask_size": 126566.36,
       "combined_cost": 1.001,
       "gross_edge": -0.0009999999999998899,
-      "matched_top_size": 12261.82,
+      "matched_top_size": 12256.82,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.263322+00:00"
+      "checked_at": "2026-11-21T08:46:31.770499+00:00"
     },
     {
       "id": "559707",
       "question": "Will Scott Colom win the 2028 Democratic presidential nomination?",
       "slug": "will-scott-colom-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1215048.9989,
-      "volume24h": 28799.844,
+      "liquidity": 1212823.0579,
+      "volume24h": 28799.843999999997,
       "end_date": "2028-11-07T00:00:00Z",
       "yes_token": "58221613119997425480757528389931244671854094565080161386357555362498959078317",
       "no_token": "20619834124625942751212664663222741074366744733361222107906707813695329234056",
@@ -623,14 +623,14 @@
       "matched_top_size": 437227.31,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.306068+00:00"
+      "checked_at": "2026-11-21T08:46:31.900889+00:00"
     },
     {
       "id": "561276",
       "question": "Will Tom Cotton win the 2028 US Presidential Election?",
       "slug": "will-tom-cotton-win-the-2028-us-presidential-election",
       "event_slug": "presidential-election-winner-2028",
-      "liquidity": 1176616.8377,
+      "liquidity": 1178722.3477,
       "volume24h": 382.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "56114071801627868962796345927407759352134024540758530261292405761584104631958",
@@ -652,14 +652,14 @@
       "matched_top_size": 51903.99,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.309584+00:00"
+      "checked_at": "2026-11-21T08:46:31.936464+00:00"
     },
     {
       "id": "561250",
       "question": "Will Elon Musk win the 2028 US Presidential Election?",
       "slug": "will-elon-musk-win-the-2028-us-presidential-election",
       "event_slug": "presidential-election-winner-2028",
-      "liquidity": 1103945.5408,
+      "liquidity": 1107313.3628,
       "volume24h": 95.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "26641906520532802078452346454133721131611596169940893262820937050881742190686",
@@ -681,15 +681,15 @@
       "matched_top_size": 8875.14,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.369521+00:00"
+      "checked_at": "2026-11-21T08:46:31.934131+00:00"
     },
     {
       "id": "703258",
       "question": "Will Jesus Christ return before 2027?",
       "slug": "will-jesus-christ-return-before-2027",
       "event_slug": "will-jesus-christ-return-before-2027",
-      "liquidity": 1049645.21212,
-      "volume24h": 87733.67716,
+      "liquidity": 1040148.20812,
+      "volume24h": 87390.93651400002,
       "end_date": "2027-01-01T04:59:00Z",
       "yes_token": "69324317355037271422943965141382095011871956039434394956830818206664869608517",
       "no_token": "51797157743046504218541616681751597845468055908324407922581755135522797852101",
@@ -710,14 +710,14 @@
       "matched_top_size": 22266.52,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.534253+00:00"
+      "checked_at": "2026-11-21T08:46:32.147917+00:00"
     },
     {
       "id": "559672",
       "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
       "slug": "will-roy-cooper-win-the-2028-democratic-presidential-nomination-286",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 1011886.12574,
+      "liquidity": 1011963.60174,
       "volume24h": 253443.96,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "30732552320006664177902085971957467957450485111214036633872573588757974348601",
@@ -739,14 +739,14 @@
       "matched_top_size": 9361.0,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.582429+00:00"
+      "checked_at": "2026-11-21T08:46:32.136545+00:00"
     },
     {
       "id": "561257",
       "question": "Will Michelle Obama win the 2028 US Presidential Election?",
       "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
       "event_slug": "presidential-election-winner-2028",
-      "liquidity": 974148.11356,
+      "liquidity": 974649.71456,
       "volume24h": 4882.76,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "88521269813605705303364598280494261510300497312149869577251450871617962933121",
@@ -768,43 +768,14 @@
       "matched_top_size": 5873.69,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.676563+00:00"
-    },
-    {
-      "id": "562006",
-      "question": "Will Eric Trump win the 2028 Republican presidential nomination?",
-      "slug": "will-eric-trump-win-the-2028-republican-presidential-nomination",
-      "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 945787.60351,
-      "volume24h": 0.0,
-      "end_date": "2028-11-08T04:59:00Z",
-      "yes_token": "57919459237478987490046512369779809927967587873586488155446781256559839871449",
-      "no_token": "58389730991380235726868542531087058690762163352908563301611948484975927797504",
-      "fees_enabled": true,
-      "fee_schedule": {
-        "exponent": 1,
-        "rate": 0.05,
-        "takerOnly": true,
-        "rebateRate": 0.25
-      },
-      "url": "https://polymarket.com/event/will-eric-trump-win-the-2028-republican-presidential-nomination",
-      "yes_best_ask": 0.002,
-      "yes_ask_size": 29248.86,
-      "no_best_ask": 0.999,
-      "no_ask_size": 297483.79,
-      "combined_cost": 1.001,
-      "gross_edge": -0.0009999999999998899,
-      "matched_top_size": 29248.86,
-      "candidate": false,
-      "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.723999+00:00"
+      "checked_at": "2026-11-21T08:46:32.198764+00:00"
     },
     {
       "id": "559674",
       "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
       "slug": "will-jared-polis-win-the-2028-democratic-presidential-nomination-837",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 945325.58284,
+      "liquidity": 948346.81784,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "42119164854283656238382173699154739480090965550328051492328192273011556335098",
@@ -826,14 +797,43 @@
       "matched_top_size": 143223.0,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.737651+00:00"
+      "checked_at": "2026-11-21T08:46:32.345562+00:00"
+    },
+    {
+      "id": "562006",
+      "question": "Will Eric Trump win the 2028 Republican presidential nomination?",
+      "slug": "will-eric-trump-win-the-2028-republican-presidential-nomination",
+      "event_slug": "republican-presidential-nominee-2028",
+      "liquidity": 944588.90248,
+      "volume24h": 0.0,
+      "end_date": "2028-11-08T04:59:00Z",
+      "yes_token": "57919459237478987490046512369779809927967587873586488155446781256559839871449",
+      "no_token": "58389730991380235726868542531087058690762163352908563301611948484975927797504",
+      "fees_enabled": true,
+      "fee_schedule": {
+        "exponent": 1,
+        "rate": 0.05,
+        "takerOnly": true,
+        "rebateRate": 0.25
+      },
+      "url": "https://polymarket.com/event/will-eric-trump-win-the-2028-republican-presidential-nomination",
+      "yes_best_ask": 0.002,
+      "yes_ask_size": 29243.86,
+      "no_best_ask": 0.999,
+      "no_ask_size": 297468.79,
+      "combined_cost": 1.001,
+      "gross_edge": -0.0009999999999998899,
+      "matched_top_size": 29243.86,
+      "candidate": false,
+      "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
+      "checked_at": "2026-11-21T08:46:32.359254+00:00"
     },
     {
       "id": "559682",
       "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
       "slug": "will-person-a-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 875666.50739,
+      "liquidity": 879165.33839,
       "volume24h": 35497.72,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "11343337042526652606304508556838778144915122118685013460142819817079620240439",
@@ -855,15 +855,15 @@
       "matched_top_size": 22435.01,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.875999+00:00"
+      "checked_at": "2026-11-21T08:46:32.515273+00:00"
     },
     {
       "id": "562004",
       "question": "Will Marjorie Taylor Greene win the 2028 Republican presidential nomination?",
       "slug": "will-marjorie-taylor-greene-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 872832.5304,
-      "volume24h": 39.35,
+      "liquidity": 864788.83961,
+      "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "65830295349944471218641822318218876930376684645620468557619951782520997909982",
       "no_token": "33372330947023860525870630758549137902170576919090726047009795835189818269107",
@@ -876,23 +876,23 @@
       },
       "url": "https://polymarket.com/event/will-marjorie-taylor-greene-win-the-2028-republican-presidential-nomination",
       "yes_best_ask": 0.004,
-      "yes_ask_size": 7394.11,
+      "yes_ask_size": 25069.11,
       "no_best_ask": 0.997,
-      "no_ask_size": 67575.67,
+      "no_ask_size": 67568.56,
       "combined_cost": 1.001,
       "gross_edge": -0.0009999999999998899,
-      "matched_top_size": 7394.11,
+      "matched_top_size": 25069.11,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.912138+00:00"
+      "checked_at": "2026-11-21T08:46:32.549271+00:00"
     },
     {
       "id": "561268",
       "question": "Will Elissa Slotkin win the 2028 US Presidential Election?",
       "slug": "will-elissa-slotkin-win-the-2028-us-presidential-election",
       "event_slug": "presidential-election-winner-2028",
-      "liquidity": 839734.04351,
-      "volume24h": 23428.837000000003,
+      "liquidity": 841873.90063,
+      "volume24h": 23292.137000000002,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "48603794625473459817558518297806850992009615470611080215039575427157653927669",
       "no_token": "52728319505612554616109154570709065358779880697251731838206843628919066236833",
@@ -905,22 +905,22 @@
       },
       "url": "https://polymarket.com/event/will-elissa-slotkin-win-the-2028-us-presidential-election",
       "yes_best_ask": 0.002,
-      "yes_ask_size": 685264.06,
+      "yes_ask_size": 685185.7,
       "no_best_ask": 0.999,
-      "no_ask_size": 567232.69,
+      "no_ask_size": 567160.98,
       "combined_cost": 1.001,
       "gross_edge": -0.0009999999999998899,
-      "matched_top_size": 567232.69,
+      "matched_top_size": 567160.98,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.933170+00:00"
+      "checked_at": "2026-11-21T08:46:32.571624+00:00"
     },
     {
       "id": "561991",
       "question": "Will Matt Gaetz win the 2028 Republican presidential nomination?",
       "slug": "will-matt-gaetz-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 825910.18704,
+      "liquidity": 829362.36404,
       "volume24h": 11815.141,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "21684611233679565633387313395955873024927822291738934804105644401703825367322",
@@ -942,14 +942,14 @@
       "matched_top_size": 296.12,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:19.968741+00:00"
+      "checked_at": "2026-11-21T08:46:32.592508+00:00"
     },
     {
       "id": "559693",
       "question": "Will Ruben Gallego win the 2028 Democratic presidential nomination?",
       "slug": "will-ruben-gallego-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 814554.82597,
+      "liquidity": 815059.00997,
       "volume24h": 8083.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "94658518227479141344875476648819337938746150529318297759951212169676959854478",
@@ -971,14 +971,14 @@
       "matched_top_size": 3916.1,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.066871+00:00"
+      "checked_at": "2026-11-21T08:46:32.664070+00:00"
     },
     {
       "id": "561989",
       "question": "Will Ted Cruz win the 2028 Republican presidential nomination?",
       "slug": "will-ted-cruz-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 811796.33591,
+      "liquidity": 809359.49976,
       "volume24h": 1116.26,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "75602319799101799832214450648958470414659751617273540482126444460192042893239",
@@ -1000,14 +1000,14 @@
       "matched_top_size": 10867.77,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.059033+00:00"
+      "checked_at": "2026-11-21T08:46:32.721588+00:00"
     },
     {
       "id": "559662",
       "question": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
       "slug": "will-mark-cuban-win-the-2028-democratic-presidential-nomination-329",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 781585.31427,
+      "liquidity": 782342.94027,
       "volume24h": 0.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "58378309871183461257693288827678410871907006920578755035402846056315798427503",
@@ -1029,14 +1029,14 @@
       "matched_top_size": 18276.94,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.104466+00:00"
+      "checked_at": "2026-11-21T08:46:32.784449+00:00"
     },
     {
       "id": "561990",
       "question": "Will Elon Musk win the 2028 Republican presidential nomination?",
       "slug": "will-elon-musk-win-the-2028-republican-presidential-nomination",
       "event_slug": "republican-presidential-nominee-2028",
-      "liquidity": 776030.9682,
+      "liquidity": 776955.62982,
       "volume24h": 22.0,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "97933607699985149274021900377397416175605196663149372937380275158258659161873",
@@ -1058,14 +1058,14 @@
       "matched_top_size": 13517.88,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.124768+00:00"
+      "checked_at": "2026-11-21T08:46:32.780337+00:00"
     },
     {
       "id": "561281",
       "question": "Will Ted Cruz win the 2028 US Presidential Election?",
       "slug": "will-ted-cruz-win-the-2028-us-presidential-election",
       "event_slug": "presidential-election-winner-2028",
-      "liquidity": 742953.6707,
+      "liquidity": 741894.1067,
       "volume24h": 3187.5393329999997,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "113248967076318322385044998752687761662046249689161899472936030101278374194762",
@@ -1087,43 +1087,14 @@
       "matched_top_size": 800.52,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.236876+00:00"
-    },
-    {
-      "id": "3215008",
-      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-      "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
-      "event_slug": "fed-decision-in-december-20260729232808632",
-      "liquidity": 734102.4453,
-      "volume24h": 733649.010826,
-      "end_date": "2026-12-09T23:59:00Z",
-      "yes_token": "111662129652828266889360374468657435151479595863413519836161861837506140152890",
-      "no_token": "94483965432909797688470702512207472940215538148754820061518518664128018848687",
-      "fees_enabled": true,
-      "fee_schedule": {
-        "exponent": 1,
-        "rate": 0.01,
-        "takerOnly": true,
-        "rebateRate": 0.25
-      },
-      "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
-      "yes_best_ask": 0.9,
-      "yes_ask_size": 111960.19,
-      "no_best_ask": 0.11,
-      "no_ask_size": 8844.24,
-      "combined_cost": 1.01,
-      "gross_edge": -0.010000000000000009,
-      "matched_top_size": 8844.24,
-      "candidate": false,
-      "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.315261+00:00"
+      "checked_at": "2026-11-21T08:46:32.825404+00:00"
     },
     {
       "id": "559695",
       "question": "Will James Talarico win the 2028 Democratic presidential nomination?",
       "slug": "will-james-talarico-win-the-2028-democratic-presidential-nomination",
       "event_slug": "democratic-presidential-nominee-2028",
-      "liquidity": 703761.23296,
+      "liquidity": 702894.19096,
       "volume24h": 62.5,
       "end_date": "2028-11-08T04:59:00Z",
       "yes_token": "52535923606561722941567320365820395300598958985353103429657683100920373025261",
@@ -1145,36 +1116,7 @@
       "matched_top_size": 879.22,
       "candidate": false,
       "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.456634+00:00"
-    },
-    {
-      "id": "3215009",
-      "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-      "slug": "will-the-fed-increase-interest-rates-by-50-bps-after-the-december-2026-meeting-20260729232808637",
-      "event_slug": "fed-decision-in-december-20260729232808632",
-      "liquidity": 700804.95278,
-      "volume24h": 507259.466866,
-      "end_date": "2026-12-09T23:59:00Z",
-      "yes_token": "35090254409399344650860070211816464534198960801264823587796928404808383727584",
-      "no_token": "17037715451587457598270390992151934195448806241696976473961259598235638233970",
-      "fees_enabled": true,
-      "fee_schedule": {
-        "exponent": 1,
-        "rate": 0.01,
-        "takerOnly": true,
-        "rebateRate": 0.25
-      },
-      "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-50-bps-after-the-december-2026-meeting-20260729232808637",
-      "yes_best_ask": 0.02,
-      "yes_ask_size": 29034.92,
-      "no_best_ask": 0.981,
-      "no_ask_size": 60.67,
-      "combined_cost": 1.001,
-      "gross_edge": -0.0009999999999998899,
-      "matched_top_size": 60.67,
-      "candidate": false,
-      "fee_status": "À vérifier : frais et frais éventuels propres au marché non déduits",
-      "checked_at": "2026-11-21T07:44:20.485228+00:00"
+      "checked_at": "2026-11-21T08:46:33.145881+00:00"
     }
   ],
   "errors": []
